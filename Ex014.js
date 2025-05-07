@@ -3,7 +3,7 @@
 
 const prompt = require('prompt-sync')()
 
-const num = Number(prompt('Digite um número: '))
+const num = Number.parseInt(prompt('Digite um número: '))
 let fatorial = 1
 if(!isNaN(num) && num >= 0) {
     for(i=num; i>1; i--) {

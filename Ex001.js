@@ -12,4 +12,3 @@ if (!num) {
 } else {
     console.log("Numero impar")
 }
-
